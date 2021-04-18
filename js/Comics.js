@@ -62,7 +62,7 @@ AFRAME.registerComponent("comic", {
       width: 24,
       height: 41.5
     });
-
+    entityEl.setAttribute("cursor-listener", {});
     entityEl.setAttribute("material",{
       color:"black",
       opacity:1
